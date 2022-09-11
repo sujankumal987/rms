@@ -1,0 +1,28 @@
+body{
+    overflow-x: hidden;
+  }
+
+  .food-items{
+    display: flex !important;
+      width: 100px;
+      height: 100px;
+      color: rgba(13, 10, 10, 0.548);
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .active-purple-4 input[type=text]:focus:not([readonly]) {
+      border: 1px solid #ce93d8;
+      box-shadow: 0 0 0 1px #ce93d8;
+
+    }
+
+  .active-purple input[type=text] {
+      border-bottom: 1px solid #ce93d8;
+      box-shadow: 0 1px 0 0 #ce93d8;
+    }
+  .table{
+      padding-right: 0px;
+  }
+
