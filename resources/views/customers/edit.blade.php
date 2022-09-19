@@ -17,7 +17,7 @@
             </div>
             <div class="mb-3">
                 <label for="exampleInputtext" class="form-label">Customer Mobile</label>
-                <input type="number" class="form-control" id="customermobile" placeholder="enter your mobile number">
+                <input type="number" class="form-control" id="customermobile" placeholder="enter your mobile number" min="0">
                 <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
             </div>
             <div class="mb-3">
@@ -38,12 +38,12 @@
                     </div>
                     <div class="col">
                         <label for="exampleTextarea" class="form-label">pincode</label>
-                      <input type="number" class="form-control" placeholder="zipcode">
+                      <input type="number" class="form-control" placeholder="zipcode"  min="0">
                     </div>
                   </div>
             </div>
 
-            <a href="/setting" class="btn btn-secondary mb-2">Go Back</a>
+            <a href="/customers" class="btn btn-secondary mb-2">Go Back</a>
             <button type="submit" class="btn btn-success mb-2">Save</button>
         </form>
     </div>
@@ -65,10 +65,10 @@
 
                     <div class="mb-3">
                         <label for="exampleInputtext" class="form-label">Order Value</label>
-                        <input type="number" class="form-control" id="ordervalue" placeholder="number of value">
+                        <input type="number" class="form-control" id="ordervalue" placeholder="number of value"  min="0">
                         <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
                       </div>
-                    <a href="/settings" class="btn btn-secondary mb-2">Go Back</a>
+                    <a href="/customers" class="btn btn-secondary mb-2">Go Back</a>
                     <button type="submit" class="btn btn-success mb-2">Save</button>
                 </form>
               </div>

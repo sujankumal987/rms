@@ -66,7 +66,7 @@
                     <div class="mt-3">
                         <div>
                             <label for="exampleInputtext" class="form-label">Amount</label>
-                            <input type="number" class="form-control" id="amount" placeholder="Amount">
+                            <input type="number" class="form-control" id="amount" placeholder="Amount"  min="0">
                             <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
                         </div>
                         <div class="mt-3">
@@ -76,7 +76,7 @@
                         </div>
                     </div>
                     <div class="float-right mt-4 ">
-                        <button type="button" class="btn btn-default mr-2">Cancle (Ecs)</button>
+                        <a  href ="/pettycashs" type="button" class="btn btn-default mr-2">Cancel (Ecs)</a>
                         <button type="button" class="btn btn-primary">Add Cash Out</button>
                     </div>
                 </div>

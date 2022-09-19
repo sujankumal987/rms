@@ -40,6 +40,9 @@
         </div>
 </div>
 
+
+
+{{-- model --}}
 <div class="modal fade" id="modal-default" style="display: none;" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -52,7 +55,7 @@
             <div class="modal-body">
                 <p>
 
-                    <form class="p-4">
+                    <form class="">
                         <div class="mb-3">
                           <label for="exampleInputtext" class="form-label">Product Name</label>
                           <input type="text" class="form-control" id="productname" placeholder="Product name">
@@ -76,7 +79,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputtext" class="form-label">Product Price</label>
-                            <input type="number" class="form-control" id="productprice"placeholder="Product Price">
+                            <input type="number" class="form-control" id="productprice"placeholder="Product Price"  min="0">
                             <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
                         </div>
                         <a href="/products" class="btn btn-secondary mb-2">Go Back</a>

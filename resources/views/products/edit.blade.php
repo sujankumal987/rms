@@ -30,7 +30,7 @@
             </div>
             <div class="mb-3">
                 <label for="exampleInputtext" class="form-label">Product Price</label>
-                <input type="number" class="form-control" id="productprice"placeholder="Product Price">
+                <input type="number" class="form-control" id="productprice"placeholder="Product Price"  min="0">
                 <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
             </div>
             <a href="/products" class="btn btn-secondary mb-2">Go Back</a>
@@ -98,7 +98,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputtext" place class="form-label">Set Order</label>
-                        <input type="number" class="form-control" id="setorder" placeholder="Set Order (optional)">
+                        <input type="number" class="form-control" id="setorder" placeholder="Set Order (optional)" min="0">
                     </div>
                     <a href="/products" class="btn btn-secondary mb-2">Go Back</a>
                     <button type="submit" class="btn btn-success mb-2">Save</button>

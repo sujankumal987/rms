@@ -65,24 +65,49 @@ Route::get('/settings', function(){
 });
 
 Route::get('/settings/register', function(){
-    return view('settings.register');
+    return view('settings.create-register');
 });
 Route::get('/settings/category', function(){
-    return view('settings.category');
+    return view('settings.create-category');
 });
 
 Route::get('/settings/tax', function(){
-    return view('settings.tax');
+    return view('settings.create-tax');
 });
 
 Route::get('/settings/charge', function(){
     return view('settings.charge');
 });
 
+Route::get('/settings/custom', function(){
+    return view('settings.custom');
+});
+Route::get('/settings/user', function(){
+    return view('settings.user');
+});
+Route::get('/settings/discount', function(){
+    return view('settings.discount');
+});
+Route::get('/settings/create-discount', function(){
+    return view('settings.create-discount');
+});
+Route::get('/settings/production', function(){
+    return view('settings.production-option');
+});
 
+Route::get('/settings/shop', function(){
+    return view('settings.shop');
+});
+
+// end setting
 
 // Dashboard
 Route::get('/', function () {
     return view('dashboard');
+});
+
+// practise
+Route::get('/settings/manisha', function () {
+    return view('settings.manisha');
 });
 
